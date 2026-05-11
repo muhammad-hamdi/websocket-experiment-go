@@ -107,7 +107,6 @@ func readLoop(conn net.Conn, userId int) {
 				}
 			}
 		}
-
 	}
 	conn.Close()
 	fmt.Println("-------------")
